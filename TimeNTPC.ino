@@ -3,8 +3,8 @@
 #include <WiFiUdp.h>
 
 // Replace with your network credentials
-const char* ssid     = "IPhone";
-const char* password = "0844095831";
+const char* ssid     = "IPhone"; // Set up your user SSID
+const char* password = "0844095831";  // Set up your PASSWORD ID
 
 // Define NTP Client to get time
 WiFiUDP ntpUDP;
