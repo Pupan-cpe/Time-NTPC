@@ -33,8 +33,8 @@ void setup() {
 
 // Initialize a NTPClient to get time
   timeClient.begin();
-  // Set offset time in seconds to adjust for your timezone, for example:
-  // GMT +1 = 3600
+  // นำ 3600 ไปคูณกับ GMT ของประเทศที่อยากจะแสดงเวลา:
+  // GMT +1 = 3600 
   // GMT +8 = 28800
   // GMT -1 = -3600
   // GMT 0 = 0
